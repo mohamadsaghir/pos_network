@@ -1,0 +1,61 @@
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* مخفي افتراضياً */
+  width: 250px;
+  height: 100%;
+  background-color: #1976d2;
+  color: white;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  left: 0; /* يظهر لما نضغط */
+}
+
+.sidebar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-links li {
+  margin: 15px 0;
+}
+
+.sidebar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar-links li a:hover {
+  text-decoration: underline;
+}
+
+/* زر الفتح/الإغلاق */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 1100;
+  border-radius: 4px;
+}
+
+.toggle-btn:hover {
+  background-color: #135ba1;
+}

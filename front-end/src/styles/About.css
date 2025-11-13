@@ -1,0 +1,63 @@
+.about-container {
+  padding: 30px;
+  color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-container h2 {
+  color: #64ffda;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about-intro {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.feature-card h3 {
+  color: #64ffda;
+  margin-bottom: 8px;
+}
+
+.feature-card p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.contact-card {
+  margin-top: 25px;
+  padding: 18px;
+  border-radius: 14px;
+  background: rgba(100, 255, 218, 0.08);
+  border: 1px solid rgba(100, 255, 218, 0.3);
+  text-align: center;
+}
+
+.contact-card a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}

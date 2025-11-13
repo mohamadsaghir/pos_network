@@ -1,0 +1,437 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+✅ MongoDB connected (primary URI) to database "test".
+🚀 Server running on port 5000
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error adding debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-01.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-01.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-01.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-01.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-01.dhgq80a.mongodb.net
+❌ Error updating debt: read ECONNRESET
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error updating debt: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+⚠️ Rollover check failed: connection <monitor> to 159.41.64.54:27017 closed
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 1
+GET /api/debts -> raw count 1
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+❌ Error fetching debts: connection 13 to 159.41.64.54:27017 timed out
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 7
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 6
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 5
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 4
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 1
+GET /api/debts -> raw count 1
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 2
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+⚠️ Rollover check failed: connection <monitor> to 159.41.64.54:27017 closed
+❌ Error fetching debts: connection <monitor> to 159.41.64.54:27017 closed
+⚠️ Rollover check failed: connection <monitor> to 159.41.64.54:27017 closed
+❌ Error fetching debts: connection <monitor> to 159.41.64.54:27017 closed
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+⚠️ Rollover check failed: connection <monitor> to 159.41.64.54:27017 closed
+❌ Error fetching debts: connection <monitor> to 159.41.64.54:27017 closed
+⚠️ Rollover check failed: connection <monitor> to 159.41.64.54:27017 closed
+⚠️ Rollover check failed: connection <monitor> to 159.41.64.54:27017 closed
+⚠️ Rollover check failed: connection <monitor> to 159.41.64.54:27017 closed
+❌ Error fetching debts: connection <monitor> to 159.41.64.54:27017 closed
+❌ Error fetching debts: connection <monitor> to 159.41.64.54:27017 closed
+❌ Error fetching debts: connection <monitor> to 159.41.64.54:27017 closed
+⚠️ Rollover check failed: Socket 'secureConnect' timed out after 35338ms (connectTimeoutMS: 30000)
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-02.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-02.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+⚠️ Rollover check failed: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+❌ Error fetching debts: getaddrinfo ENOTFOUND ac-nuaeutb-shard-00-00.dhgq80a.mongodb.net
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3
+GET /api/debts -> raw count 3

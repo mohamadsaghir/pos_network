@@ -1,0 +1,127 @@
+/* 🔹 زر فتح القائمة */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #64ffda;
+  border: 2px solid rgba(100, 255, 218, 0.2);
+  border-radius: 12px;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px 14px;
+  z-index: 1001;
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: rgba(100, 255, 218, 0.15);
+  box-shadow: 0 0 15px rgba(100, 255, 218, 0.3);
+  transform: scale(1.05);
+}
+
+/* 🔹 القائمة الجانبية */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh; /* ⬅️ تمتد من أول لآخر الصفحة */
+  width: 260px; /* عرض الشريط */
+  background: rgba(10, 25, 47, 0.9);
+  border-right: 1px solid rgba(100, 255, 218, 0.15);
+  border-radius: 0 20px 20px 0;
+  backdrop-filter: blur(12px);
+  padding: 80px 20px 20px; /* padding علوي عشان يبعد عن الزر */
+  box-shadow: 5px 0 25px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+  z-index: 1000;
+}
+
+/* عند الإغلاق */
+.navbar.closed {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+/* عند الفتح */
+.navbar.open {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* 🔹 الروابط */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nav-links li {
+  text-align: left;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: rgba(100, 255, 218, 0.15);
+  color: #64ffda;
+  transform: scale(1.03);
+  box-shadow: 0 0 12px rgba(100, 255, 218, 0.25);
+}
+
+/* 🔹 تجاوب الموبايل */
+@media (max-width: 768px) {
+  .navbar {
+    width: 80%;
+    max-width: 280px;
+  }
+
+  .toggle-btn {
+    top: 15px;
+    left: 15px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+}
+/* 🔹 زر تسجيل الخروج */
+.logout-btn {
+  width: 100%;
+  margin-top: 40px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #ff6b6b, #ee5253);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #ee5253, #ff6b6b);
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+}
