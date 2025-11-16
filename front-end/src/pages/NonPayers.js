@@ -1,19 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "../styles/TablePage.css";
-import {
-  fetchDebtsList,
-  updateDebt,
-  deleteDebt,
-} from "../utils/debtsService";
-import whatsappApi from "../utils/whatsappApi";
+import { fetchDebtsList, updateDebt, deleteDebt } from "../utils/debtsService";
 
 function NonPayers() {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [usingCache, setUsingCache] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [singleSendingId, setSingleSendingId] = useState(null);
-  const [delaySeconds] = useState(60);
 
   useEffect(() => {
     fetchData();
@@ -35,60 +28,19 @@ function NonPayers() {
     }
   };
 
-  const normalizePhoneNumber = (phone) =>
-    phone?.toString().replace(/[^0-9]/g, "") || "";
-
-  const buildReminderPayload = (person) => {
-    const amountDisplay =
-      typeof person.amount === "number" ? `${person.amount}$` : person.amount || "";
-    const message = `مرحبًا ${person.name}، نذكّرك أن المبلغ (${amountDisplay}) لم يتم دفعه بعد.`;
-    return {
-      phone: normalizePhoneNumber(person.phone),
-      message,
-    };
-  };
-
-  const sendViaWhatsappApi = async (payload) => {
-    if (!payload.phone) throw new Error("رقم الهاتف غير صالح");
-    const response = await whatsappApi.post("/send_reminder", payload);
-    return response?.data;
-  };
-
-  const openWaLink = (payload, closeAfterMs = 60000) => {
-    if (!payload?.phone) return;
-    const url = `https://web.whatsapp.com/send?phone=${payload.phone}&text=${encodeURIComponent(
-      payload.message
-    )}`;
-    const newTab = window.open(url, "_blank");
-    if (newTab && closeAfterMs > 0) {
-      setTimeout(() => {
-        try {
-          newTab.close();
-        } catch {
-          /* ignore */
-        }
-      }, closeAfterMs);
+  const openWhatsApp = (phone, message) => {
+    if (!phone) {
+      alert("رقم الهاتف غير متوفر.");
+      return;
     }
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
   };
 
   // 💬 إرسال تذكير واتساب
   const handleSendReminder = async (person) => {
-    if (!person?.phone) {
-      alert("رقم الهاتف غير متوفر.");
-      return;
-    }
-    const payload = buildReminderPayload(person);
-    setSingleSendingId(person._id);
-    try {
-      await sendViaWhatsappApi(payload);
-      alert(`✅ تم إرسال التذكير إلى ${person.name}`);
-    } catch (err) {
-      console.error("Error sending WhatsApp reminder:", err);
-      alert("⚠️ تعذر الاتصال بخادم الإرسال، سيتم فتح واتساب يدويًا.");
-      openWaLink(payload, delaySeconds * 1000);
-    } finally {
-      setSingleSendingId(null);
-    }
+    const message = `مرحبًا ${person.name} ، نذكّرك أن المبلغ المستحق (${person.amount}$) لم يتم دفعه بعد. يرجى التجديد في أقرب وقت `;
+    openWhatsApp(person.phone, message);
   };
 
   // 🗑️ حذف زبون
@@ -117,6 +69,8 @@ function NonPayers() {
         alert("⚠️ لا يوجد إنترنت. تم حفظ التعديل محليًا وسيُرسل تلقائيًا لاحقًا.");
       } else {
         alert(`✅ ${person.name} تم تحويله إلى قائمة الدافعين`);
+        const message = `مرحبًا ${person.name}، تم تسديد فاتورتك بنجاح \nشكرًا لتسديدك `;
+        openWhatsApp(person.phone, message);
       }
       await fetchData();
     } catch (err) {
@@ -178,9 +132,8 @@ function NonPayers() {
                     <button
                       className="view-btn"
                       onClick={() => handleSendReminder(person)}
-                      disabled={singleSendingId === person._id}
                     >
-                      {singleSendingId === person._id ? "⏳ ..." : "💬 WhatsApp"}
+                      💬 WhatsApp
                     </button>
                     <button className="delete-btn" onClick={() => handleDelete(person._id)}>🗑️ حذف</button>
                   </div>
