@@ -33,8 +33,8 @@ function Payers() {
 
   // 💬 إرسال رسالة واتساب
   const handleSendWhatsApp = (person) => {
-    const message = `مرحبًا ${person.name} ، شكرًا لتسديدك المبلغ (${person.amount}$) للعلبة ${person.boxName} `;
-    const url = `https://wa.me/${person.phone}?text=${encodeURIComponent(message)}`;
+    const message = `مرحبًا ${person.name} ، شكرًا لتسديدك المبلغ smart net (${person.amount}$) للعلبة ${person.boxName} `;
+    const url = `https://wa.me/+961${person.phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 
