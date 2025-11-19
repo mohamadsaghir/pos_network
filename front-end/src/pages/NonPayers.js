@@ -33,13 +33,13 @@ function NonPayers() {
       alert("رقم الهاتف غير متوفر.");
       return;
     }
-    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/+961${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 
   // 💬 إرسال تذكير واتساب
   const handleSendReminder = async (person) => {
-    const message = `مرحبًا ${person.name} ، نذكّرك أن المبلغ المستحق (${person.amount}$) لم يتم دفعه بعد. يرجى التجديد في أقرب وقت `;
+    const message = `مرحبًا smart net ${person.name} ، نذكّرك أن المبلغ المستحق (${person.amount}$) لم يتم دفعه بعد. يرجى التجديد في أقرب وقت `;
     openWhatsApp(person.phone, message);
   };
 
@@ -69,7 +69,7 @@ function NonPayers() {
         alert("⚠️ لا يوجد إنترنت. تم حفظ التعديل محليًا وسيُرسل تلقائيًا لاحقًا.");
       } else {
         alert(`✅ ${person.name} تم تحويله إلى قائمة الدافعين`);
-        const message = `مرحبًا ${person.name}، تم تسديد فاتورتك بنجاح \nشكرًا لتسديدك `;
+        const message = `مرحبًا ${person.name}، تم تسديد فاتورتك بنجاح \nشكرًا لتسديدك smart net `;
         openWhatsApp(person.phone, message);
       }
       await fetchData();
