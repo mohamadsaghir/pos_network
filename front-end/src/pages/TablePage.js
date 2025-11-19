@@ -67,8 +67,8 @@ const TablePage = forwardRef(function TablePage({ setEditPerson }, ref) {
       }
       await fetchData();
       if (!result.queued) {
-        const message = `مرحبًا ${person.name}، تم تسديد فاتورتك بنجاح \nشكرًا لتسديدك `;
-        const url = `https://wa.me/${person.phone}?text=${encodeURIComponent(
+        const message = `مرحبًا ${person.name}، تم تسديد فاتورتك بنجاح \nشكرًا لتسديدك smart net `;
+        const url = `https://wa.me/+961${person.phone}?text=${encodeURIComponent(
           message
         )}`;
         window.open(url, "_blank");
@@ -101,8 +101,8 @@ const TablePage = forwardRef(function TablePage({ setEditPerson }, ref) {
 
   // 💬 تذكير
   const handleSendReminder = (person) => {
-    const message = `مرحبًا ${person.name} ، نذكّرك أن المبلغ المستحق (${person.amount}$) لم يتم دفعه بعد. يرجى التجديد في أقرب وقت `;
-    const url = `https://wa.me/${person.phone}?text=${encodeURIComponent(
+    const message = `مرحبًا ${person.name} ، نذكّرك أن المبلغ المستحق (${person.amount}$) smart net لم يتم دفعه بعد. يرجى التجديد في أقرب وقت `;
+    const url = `https://wa.me/+961${person.phone}?text=${encodeURIComponent(
       message
     )}`;
     window.open(url, "_blank");
