@@ -4,6 +4,7 @@ import { createDebt, deleteAllDebts } from "../utils/debtsService";
 import { exportAllDebtsToExcel } from "../utils/exportUtils";
 import "../styles/TablePage.css"; // Reuse existing table styles
 
+// Component for importing/exporting Excel files
 const ImportExcel = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
