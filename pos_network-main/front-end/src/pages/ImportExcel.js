@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as XLSX from "xlsx";
-import { createDebt, fetchDebtsList, deleteAllDebts } from "../utils/debtsService";
+import { createDebt, deleteAllDebts } from "../utils/debtsService";
 import { exportAllDebtsToExcel } from "../utils/exportUtils";
 import "../styles/TablePage.css"; // Reuse existing table styles
 
