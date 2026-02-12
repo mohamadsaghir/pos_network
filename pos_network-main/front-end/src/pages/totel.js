@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../utils/api";
 import "../styles/Totel.css";
 
 export default function Totel() {
@@ -10,7 +10,7 @@ export default function Totel() {
         const fetchData = async () => {
             try {
                 // Using existing /api/debts endpoint which returns all debts with processed data
-                const res = await axios.get("http://localhost:5000/api/debts");
+                const res = await api.get("/debts");
                 setDebts(res.data);
             } catch (err) {
                 console.error("Error fetching debts:", err);
