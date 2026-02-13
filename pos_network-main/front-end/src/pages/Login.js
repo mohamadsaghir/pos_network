@@ -11,11 +11,11 @@ function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    if (username && password) {
+    if (username === "admin@admin.com" && password === "123456789") {
       localStorage.setItem("token", "auth-token"); // ✅ حفظ التوكن
       navigate("/totel");
     } else {
-      alert("يرجى إدخال اسم المستخدم وكلمة المرور");
+      alert("⚠️ البريد الإلكتروني أو كلمة المرور غير صحيحة!");
     }
   };
 
@@ -29,11 +29,12 @@ function Login() {
 
         <form className="login-form" onSubmit={handleLogin}>
           <input
-            type="text"
-            placeholder="اسم المستخدم"
+            type="email"
+            placeholder="البريد الإلكتروني"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
+            autoFocus
           />
           <input
             type="password"
